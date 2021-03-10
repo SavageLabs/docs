@@ -1,0 +1,4 @@
+/* Nextra does 1.5rem by default, and I think it looked weird. */
+article ul {
+  margin-top: 1rem;
+}

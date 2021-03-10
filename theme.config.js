@@ -1,18 +1,18 @@
 export default {
-  repository: 'https://github.com/shuding/nextra',
-  titleSuffix: ' – Nextra',
+  repository: 'https://github.com/SavageLabs/docs',
+  titleSuffix: ' – SavageLabs',
   logo: (
     <>
-      <span className="mr-2 font-extrabold hidden md:inline">Nextra</span>
+      <span className="mr-2 font-extrabold hidden md:inline">SavageLabs</span>
       <span className="text-gray-600 font-normal hidden md:inline">
-        The Next Site Builder
+        Plugin Documentation
       </span>
     </>
   ),
   head: (
     <>
-      <meta name="msapplication-TileColor" content="#ffffff" />
-      <meta name="theme-color" content="#ffffff" />
+      <meta name="msapplication-TileColor" content="#88126B" />
+      <meta name="theme-color" content="#88126B" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta httpEquiv="Content-Language" content="en" />
       <meta name="description" content="Nextra: the next site builder" />
@@ -33,9 +33,9 @@ export default {
     </>
   ),
   search: true,
-  prevLinks: true,
+  prevLinks: false,
   nextLinks: true,
   footer: true,
   footerEditOnGitHubLink: true,
-  footerText: <>MIT {new Date().getFullYear()} © Nextra.</>
+  footerText: <>{new Date().getFullYear()} © SavageLabs.</>
 }

@@ -1,7 +1,11 @@
-# Nextra
+# Home
 
-**Nextra** is a [Next.js](https://nextjs.org) based static site generator. 0 lines of code needed.  
+Welcome to the SavageLabs Wiki.
 
-It supports Markdown with React components ([MDX](/docs/mdx)), automatically generated [sidebar and anchor links](/docs/anchors), file-system based routing, built-in syntax highlighting, i18n and more.
+import Callout from 'nextra-theme-docs/callout'
 
-![](/demo.png)
+<Callout emoji="🛠">
+Join our discord: https://discord.gg/savagelabs
+</Callout>
+
+Please refer to the sidebar on the left for information regarding your specific plugin.
